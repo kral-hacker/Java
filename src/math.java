@@ -1,0 +1,19 @@
+public class math {
+    public static void main(String[] args) {
+        //Math.max(x,y)
+        int max = Math.max(5,10); // Its is used to get the maximum value
+        System.out.println(max);
+        //Math.min(x,y)
+        int min = Math.min(5,10); //Used to find the minimum number
+        System.out.println(min);
+        //Math.sqrt(x);
+        double sr = Math.sqrt(64); // it is used to find the sqrt
+        System.out.println(sr);
+        //Math.abs(x);
+        float abs = Math.abs(-4.7f);
+        System.out.println(abs); //it is used to provide the absolute positive value of x
+        //Math.random();
+        System.out.println(Math.random()); // It is used to give the exclusive value from 0.0to 1.0
+        System.out.println((int) Math.random()*101);
+    }
+}
