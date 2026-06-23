@@ -1,5 +1,5 @@
-public class math {
-    public static void main(String[] args) {
+public class Math_Library {
+    public static void main(){
         //Math.max(x,y)
         int max = Math_Library.max(5,10); // Its is used to get the maximum value
         System.out.println(max);
